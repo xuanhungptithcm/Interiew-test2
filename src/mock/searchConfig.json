@@ -1,0 +1,44 @@
+{
+  "config": [
+    {
+      "name": "Title",
+      "key": "title",
+      "isSearchable": true
+    },
+    {
+      "name": "Handle",
+      "key": "handle",
+      "isSearchable": true
+    },
+    {
+      "name": "Vendor",
+      "key": "vendor",
+      "isSearchable": true
+    },
+    {
+        "name": "Price",
+        "key": "variants.price",
+        "isSearchable": false
+    },
+    {
+        "name": "Compare at price",
+        "key": "variants.compare_at_price",
+        "isSearchable": false
+    },
+    {
+        "name": "Inventory management",
+        "key": "variants.inventory_management",
+        "isSearchable": false
+    },
+    {
+        "name": "Inventory policy",
+        "key": "variants.inventory_policy",
+        "isSearchable": false
+    },
+    {
+        "name": "Inventory Quantity",
+        "key": "variants.inventory_quantity",
+        "isSearchable": false
+    }
+  ]
+}
